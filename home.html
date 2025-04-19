@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Mallavalli Sai Vivek</title>
+  <link rel="icon" href="favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100vh;
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('apple-touch-icon.png') left center / 50% 100% no-repeat,
+        url('Vivek1.jpg') right top / 60% auto no-repeat;
+      background-size: cover, 50% 100%, 50% 100%;
+      background-position: center, left center, right center;
+      background-repeat: no-repeat;
+      color: white;
+      padding: 0 20px;
+      background-blend-mode: overlay;
+    }
+
+    .content {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 40px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      font-weight: 600;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      margin-bottom: 25px;
+      font-weight: 400;
+      color: #f0f0f0;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .btn {
+      padding: 14px 28px;
+      background-color: #007bff;
+      border: none;
+      color: white;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+      box-shadow: 0 6px 14px rgba(0, 123, 255, 0.5);
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        overflow: hidden; /* Prevent scrollbars */
+        position: relative;
+      }
+      
+      .social-footer {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        pointer-events: auto;
+      }
+      
+      .social-links {
+        display: flex;
+        gap: 20px;
+      }
+      
+      .social-links a img {
+        width: 24px;
+        height: 24px;
+        opacity: 0.7;
+        transition: all 0.2s ease;
+        filter: invert(1);
+      }
+      
+      .social-links a:hover img {
+        opacity: 1;
+        transform: scale(1.15);
+      }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="content">
+      <h1>I am Mallavalli Sai Vivek</h1>
+      <h2><span id="typed"></span></h2>
+      <h3>   </h3>
+      <a href="https://sai-vivek.my.canva.site" class="btn" target="_blank">View Portfolio</a>
+    </div>
+  </div>
+
+  <!-- Typed.js Animation -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed("#typed", {
+      strings: ["Founder &amp; CEO VGroups","Web Developer","Techpreneur","Frontend Developer","Enterpreneur","Tech Startup Dreamer","Problem Solver","AI Enthusiast","Sports Person &amp; Coder"],
+      typeSpeed: 80,
+      backSpeed: 40,
+      backDelay: 2000,
+      loop: true
+    });
+  </script>
+  <footer class="social-footer">
+    <div class="social-links">
+      <a href="https://github.com/saivivek-01" target="_blank" title="GitHub">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" />
+      </a>
+      <a href="https://www.linkedin.com/in/sai-vivek-mallavalli-a5b71821b/" target="_blank" title="LinkedIn">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" />
+      </a>
+      <a href="https://www.instagram.com/sai_vivek_01/" target="_blank" title="Instagram">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram" />
+      </a>
+      <a href="https://www.kaggle.com/saivivekmallavalli" target="_blank" title="Kaggle">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/kaggle.svg" alt="Kaggle" />
+      </a>
+      <a href="https://www.youtube.com/@villainvivek3997" target="_blank" title="YouTube">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg" alt="YouTube" />
+      </a>
+      <a href="https://x.com/villain_vi81935" target="_blank" title="Twitter">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/x.svg" alt="Twitter" />
+      </a>
+      <a href="mailto:villainvivek@icloud.com" target="_blank" title="Email">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gmail.svg" alt="Email" />
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
