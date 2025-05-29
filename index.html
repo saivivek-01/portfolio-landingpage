@@ -141,10 +141,13 @@
       <a href="https://sai-vivek.my.canva.site" class="btn" target="_blank">View Portfolio</a>
     </div>
   </div>
-  <!-- Chatbot Embed -->
-  <div class="chatbot-container">
-    <iframe src="https://bot.dialogflow.com/85243bb5-86c6-4873-96c2-4dc991e013b6"></iframe>
-  </div>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="VivekBot"
+    agent-id="85243bb5-86c6-4873-96c2-4dc991e013b6"
+    language-code="en"
+  ></df-messenger>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
   <!-- Typed.js Animation -->
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script>
