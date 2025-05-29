@@ -115,6 +115,21 @@
         opacity: 1;
         transform: scale(1.15);
       }
+      chatbot-container {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      .chatbot-container iframe {
+        border: none;
+        width: 350px;
+        height: 430px;
+      }
   </style>
 </head>
 <body>
@@ -126,7 +141,10 @@
       <a href="https://sai-vivek.my.canva.site" class="btn" target="_blank">View Portfolio</a>
     </div>
   </div>
-
+  <!-- Chatbot Embed -->
+  <div class="chatbot-container">
+    <iframe src="https://bot.dialogflow.com/85243bb5-86c6-4873-96c2-4dc991e013b6"></iframe>
+  </div>
   <!-- Typed.js Animation -->
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script>
